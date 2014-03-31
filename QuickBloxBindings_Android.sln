@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickBloxBindings_Android", "QuickBloxBindings_Android\QuickBloxBindings_Android.csproj", "{C887389D-AB42-4D19-B122-5DD2F4BB6AE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C887389D-AB42-4D19-B122-5DD2F4BB6AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C887389D-AB42-4D19-B122-5DD2F4BB6AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C887389D-AB42-4D19-B122-5DD2F4BB6AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C887389D-AB42-4D19-B122-5DD2F4BB6AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = QuickBloxBindings_Android\QuickBloxBindings_Android.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.FileWidth = 120
+		$1.TabsToSpaces = False
+		$1.inheritsSet = VisualStudio
+		$1.inheritsScope = text/plain
+		$1.scope = text/plain
+		$0.StandardHeader = $2
+		$2.Text = 
+		$2.IncludeInNewFiles = True
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,128 @@
+﻿<metadata>
+
+    
+    <!-- QuickBlox -->
+   <remove-node path="/api/package[@name='com.quickblox.internal.core.query']" /> 
+   <remove-node path="/api/package[@name='com.quickblox.internal.module.auth.query']" /> 
+   <remove-node path="/api/package[@name='com.quickblox.internal.module.content.query']" /> 
+   <remove-node path="/api/package[@name='com.quickblox.internal.module.custom.query.files']" /> 
+   <remove-node path="/api/package[@name='com.quickblox.internal.module.custom.query']" /> 
+   <remove-node path="/api/package[@name='com.quickblox.internal.module.locations.query']" /> 
+   <remove-node path="/api/package[@name='com.quickblox.internal.module.ratings.query.gameMode']" /> 
+   <remove-node path="/api/package[@name='com.quickblox.internal.module.ratings.query.gameModeParameter']" /> 
+   <remove-node path="/api/package[@name='com.quickblox.internal.module.ratings.query.gameModeParameterValue']" /> 
+   <remove-node path="/api/package[@name='com.quickblox.internal.module.ratings.query.score']" /> 
+   <remove-node path="/api/package[@name='com.quickblox.internal.module.users.query']" /> 
+   <remove-node path="/api/package[@name='com.quickblox.internal.module.messages.query']" />  
+   <remove-node path="/api/package[@name='com.quickblox.internal.module.custom.helper']" /> 
+   <remove-node path="/api/package[@name='com.quickblox.module.content.model']/class[@name='QBFileWrap']/method[@name='getEntity' and count(parameter)=0]" /> 
+   <remove-node path="/api/package[@name='com.quickblox.module.locations.model']/class[@name='QBLocationWrap']/method[@name='getEntity' and count(parameter)=0]" /> 
+   <remove-node path="/api/package[@name='com.quickblox.module.locations.model']/class[@name='QBPlaceWrap']/method[@name='getEntity' and count(parameter)=0]" /> 
+   <remove-node path="/api/package[@name='com.quickblox.module.users.model']/class[@name='QBUserWrap']/method[@name='getEntity' and count(parameter)=0]" /> 
+   <remove-node path="/api/package[@name='com.quickblox.module.content.model']/class[@name='QBFileWrap']" /> 
+   <remove-node path="/api/package[@name='com.quickblox.module.locations.model']/class[@name='QBLocationWrap']" /> 
+   <remove-node path="/api/package[@name='com.quickblox.module.locations.model']/class[@name='QBPlaceWrap']" /> 
+   <remove-node path="/api/package[@name='com.quickblox.module.users.model']/class[@name='QBUserWrap']" /> 
+   <remove-node path="/api/package[@name='com.quickblox.internal.module.custom']/class[@name='Deserializer']" />
+   <remove-node path="/api/package[@name='com.quickblox.internal.module.module.messages.deserializer']" /> 
+   <remove-node path="/api/package[@name='com.quickblox.internal.module.content.deserializer']" /> 
+   
+   <attr path="/api/package[@name='org.jivesoftware.smack.packet']/class[@name='Message']/method[@name='getType' and count(parameter)=0]" name="managedName">GetLocalType</attr>
+   <attr path="/api/package[@name='org.jivesoftware.smack.packet']/class[@name='IQ']/method[@name='getType' and count(parameter)=0]" name="managedName">GetLocalType</attr>
+   <attr path="/api/package[@name='org.jivesoftware.smack.packet']/class[@name='Presence']/method[@name='getType' and count(parameter)=0]" name="managedName">GetLocalType</attr>
+   <attr path="/api/package[@name='org.jivesoftware.smack.packet']/class[@name='PrivacyItem']/method[@name='getType' and count(parameter)=0]" name="managedName">GetLocalType</attr>
+   <attr path="/api/package[@name='org.jivesoftware.smack.packet']/class[@name='XMPPError']/method[@name='getType' and count(parameter)=0]" name="managedName">GetLocalType</attr>
+   
+   <attr path="/api/package[@name='com.quickblox']" name="managedName">QuickBlox</attr>
+   <attr path="/api/package[@name='com.quickblox.module.users']" name="managedName">QuickBlox.Users</attr>
+   <attr path="/api/package[@name='com.quickblox.module.users.model']" name="managedName">QuickBlox.Users.Model</attr>
+   <attr path="/api/package[@name='com.quickblox.core']" name="managedName">QuickBlox.Core</attr>
+   <attr path="/api/package[@name='com.quickblox.module.auth']" name="managedName">QuickBlox.Auth</attr>
+   <attr path="/api/package[@name='com.quickblox.module.messages']" name="managedName">QuickBlox.Messages</attr>
+   <attr path="/api/package[@name='com.quickblox.module.messages.model']" name="managedName">QuickBlox.Messages.Model</attr>
+   
+   <attr path="/api/package[@name='com.quickblox.internal.core.request']" name="managedName">QuickBlox.Core.Request</attr>
+   <attr path="/api/package[@name='com.quickblox.module.users.result']" name="managedName">QuickBlox.Users.Result</attr>
+   <attr path="/api/package[@name='com.quickblox.module.chat']" name="managedName">QuickBlox.Chat</attr>
+   <attr path="/api/package[@name='com.quickblox.module.chat.xmpp']" name="managedName">QuickBlox.Chat.Xmpp</attr>
+   
+   <attr path="/api/package[@name='com.quickblox.module.videochat.views']/class[@name='CameraView']" name="managedName">VideoChatCameraView</attr>
+   <attr path="/api/package[@name='com.quickblox.module.users.model']/class[@name='QBUser']" name="managedName">QBUUser</attr>
+   <attr path="/api/package[@name='com.quickblox.module.users.model']/class[@name='QBUser']/field[@name='Id']" name="managedName">ID</attr>
+   <attr path="/api/package[@name='com.quickblox.core']/class[@name='QBSettings']" name="managedName">QBSettings</attr>
+   
+    <!-- Others -->
+   <remove-node path="/api/package[@name='com.google.common.io']" /> 
+   <remove-node path="/api/package[@name='com.google.common.net']" /> 
+   <remove-node path="/api/package[@name='org.simpleframework.xml.core']" /> 
+   <remove-node path="/api/package[@name='org.jivesoftware.smackx.workgroup.agent']" /> 
+   <remove-node path="/api/package[@name='org.jivesoftware.smackx.pubsub.provider']" /> 
+   <remove-node path="/api/package[@name='org.jivesoftware.smackx.pubsub']" /> 
+   <remove-node path="/api/package[@name='org.jivesoftware.smackx']" /> 
+   <remove-node path="/api/package[@name='org.jivesoftware.smackx.entitycaps']" /> 
+   <remove-node path="/api/package[@name='org.jivesoftware.smackx.workgroup.ext.history']" /> 
+   <remove-node path="/api/package[@name='org.jivesoftware.smackx.workgroup']" /> 
+   <remove-node path="/api/package[@name='org.apache.http.entity']" /> 
+   <remove-node path="/api/package[@name='org.apache.commons.logging.impl']" /> 
+   <remove-node path="/api/package[@name='com.google.common.base']" /> 
+   <remove-node path="/api/package[@name='com.google.common.cache']" /> 
+   <remove-node path="/api/package[@name='com.google.common.collect']" /> 
+   <remove-node path="/api/package[@name='com.google.common.util.concurrent']" /> 
+   <remove-node path="/api/package[@name='org.apache.commons.io.input']" /> 
+   <remove-node path="/api/package[@name='org.jivesoftware.smackx.muc']" /> 
+   <remove-node path="/api/package[@name='org.jivesoftware.smackx.packet']" /> 
+   <remove-node path="/api/package[@name='com.Ostermiller.util']/class[@name='Tabs']/field[@name='TABS']" /> 
+   <remove-node path="/api/package[@name='org.apache.commons.io.output']" /> 
+   <remove-node path="/api/package[@name='org.apache.http.impl.client']" /> 
+   <remove-node path="/api/package[@name='org.apache.http.impl.cookie']" /> 
+   <remove-node path="/api/package[@name='com.google.common.hash']" /> 
+   <remove-node path="/api/package[@name='com.google.common.reflect']" /> 
+   <remove-node path="/api/package[@name='org.apache.commons.io.comparator']" /> 
+   <remove-node path="/api/package[@name='org.apache.http.client.entity']" />  
+   <remove-node path="/api/package[@name='org.apache.http.conn.params']" /> 
+   <remove-node path="/api/package[@name='org.apache.http.client.protocol']" /> 
+   <remove-node path="/api/package[@name='org.apache.http.params']" /> 
+   <remove-node path="/api/package[@name='org.jivesoftware.smack']" /> 
+   <remove-node path="/api/package[@name='org.jivesoftware.smack.util.collections']" /> 
+   <remove-node path="/api/package[@name='org.xbill.DNS']" /> 
+   <remove-node path="/api/package[@name='com.google.common.primitives']" /> 
+   <remove-node path="/api/package[@name='com.google.common.eventbus']" /> 
+   <remove-node path="/api/package[@name='com.google.gson.internal.bind']" /> 
+   <remove-node path="/api/package[@name='com.google.gson.internal']" /> 
+   <remove-node path="/api/package[@name='org.apache.http.impl']" /> 
+   <remove-node path="/api/package[@name='org.apache.http.impl.conn']" /> 
+   <remove-node path="/api/package[@name='org.apache.http.impl.io']" /> 
+   <remove-node path="/api/package[@name='org.apache.commons.io']" /> 
+   <remove-node path="/api/package[@name='com.google.gson']" /> 
+   <remove-node path="/api/package[@name='com.Ostermiller.util']" /> 
+   <remove-node path="/api/package[@name='org.apache.harmony.javax.security.auth']" /> 
+   <remove-node path="/api/package[@name='org.apache.http.auth']" /> 
+   <remove-node path="/api/package[@name='org.apache.http.conn']" /> 
+   <remove-node path="/api/package[@name='org.apache.qpid.management.common.sasl']" /> 
+   <remove-node path="/api/package[@name='org.jivesoftware.smackx.workgroup.packet']" /> 
+   <remove-node path="/api/package[@name='org.apache.http.cookie']" /> 
+   <remove-node path="/api/package[@name='org.apache.http']" /> 
+   <remove-node path="/api/package[@name='org.jivesoftware.smack.util']" /> 
+   <remove-node path="/api/package[@name='org.jivesoftware.smackx.bytestreams.ibb']" /> 
+   <remove-node path="/api/package[@name='org.simpleframework.xml.stream']" /> 
+   <remove-node path="/api/package[@name='org.apache.http.impl.conn.tsccm']" /> 
+   <remove-node path="/api/package[@name='org.apache.http.message']" /> 
+   <remove-node path="/api/package[@name='org.apache.http.protocol']" /> 
+   <remove-node path="/api/package[@name='org.apache.http.protocol']" /> 
+   <remove-node path="/api/package[@name='org.apache.http.impl.pool']" /> 
+   <remove-node path="/api/package[@name='org.jivesoftware.smackx.bytestreams.socks5']" /> 
+   <remove-node path="/api/package[@name='org.jivesoftware.smackx.filetransfer']" /> 
+   <remove-node path="/api/package[@name='org.simpleframework.xml.util']" /> 
+   <remove-node path="/api/package[@name='org.jivesoftware.smackx.commands']" /> 
+   <remove-node path="/api/package[@name='org.jivesoftware.smack.filter']" /> 
+   <remove-node path="/api/package[@name='org.jivesoftware.smackx.provider']" /> 
+   <remove-node path="/api/package[@name='org.apache.harmony.javax.security.auth.callback']" /> 
+   <remove-node path="/api/package[@name='org.jivesoftware.smack.debugger']" /> 
+   <remove-node path="/api/package[@name='org.apache.http.entity.mime']" /> 
+   <remove-node path="/api/package[@name='org.apache.harmony.javax.security.sasl']" /> 
+   <remove-node path="/api/package[@name='org.simpleframework.xml.strategy']" /> 
+   <remove-node path="/api/package[@name='org.jivesoftware.smackx.workgroup.settings']" /> 
+   
+   
+  
+</metadata>
