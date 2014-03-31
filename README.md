@@ -7,6 +7,10 @@ We are implementing QuickBlox chat feature in a Xamarin project.  Currently, we 
 Be sure you have at least Java 1.7.x installed to complile:
 
 $ java -version
+
 java version "1.7.0_51"
 Java(TM) SE Runtime Environment (build 1.7.0_51-b13)
+
+
+
 
